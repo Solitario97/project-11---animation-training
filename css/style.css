@@ -28,6 +28,7 @@
     animation-name: mavic-on;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    
 }
 
 .mavic::after,
@@ -112,8 +113,8 @@
         transform: translate(0, 0) rotate(0deg)
     }
     60%{
-        right: 33%;
-        transform: translate(0, 200%) rotate(20deg);
+        right: 21%;
+        transform: translate(0, 0) rotate(0deg)
     }
     100%{
         right: 21%;
@@ -140,8 +141,8 @@
         transform: translate(0, 0) rotate(0deg) 
     }
     60%{
-        left: 33%;
-        transform: translate(0, 200%) rotate(-20deg);
+        left: 21%;
+        transform: translate(0, 0) rotate(0deg)
     }
     100%{
         left: 21%;
