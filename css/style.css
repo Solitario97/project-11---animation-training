@@ -11,7 +11,7 @@
     overflow: hidden;
 }
 .mavic-img{
-    transition: 2s;
+    transition: 1s;
 }
 .mavic__title{
     position: absolute;
@@ -32,24 +32,19 @@
     width: 300px;
     height: 300px;
     position: absolute;
+    transition: all 1s;
 }
 .mavic::after{
     background-image: url("../img/iphone-front.png");
-    right: 25%;
+    right: 21%;
     transform: translate(0, 200%) rotate(20deg);
-    transition: 3s;
 }
 .mavic::before{
     background-image: url("../img/iphone-back.png");
-    left: 25%;
-    transform: translate(0, 200%) rotate(20deg);
-    transition: 3s;
+    left: 21%;
+    transform: translate(0, 200%) rotate(-20deg);
 }
-.mavic:hover::after{
-    transform: translate(0, 0) rotate(0deg);
-    right: 21%;
-}
+.mavic:hover::after,
 .mavic:hover::before{
     transform: translate(0, 0) rotate(0deg);
-    left: 21%;
 }
