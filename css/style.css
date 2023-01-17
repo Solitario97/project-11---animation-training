@@ -33,7 +33,6 @@
     animation-duration: .6s;
     animation-fill-mode: forwards;
 }
-
 .mostly::after,
 .mostly::before{
     content: "";
@@ -47,14 +46,12 @@
     right: 21%;
     transform: translate(0, 200%) rotate(20deg);
     animation-name: front-off;
-
 }
 .mostly::before{
     background-image: url("../img/iphone-back.png");
     left: 21%;
     transform: translate(0, 200%) rotate(-20deg);
     animation-name: back-off;
-    
 }
 .mostly:hover::after,
 .mostly:hover::before{
